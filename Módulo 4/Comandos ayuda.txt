@@ -1,0 +1,8 @@
+sudo docker image ls. Lista las imágenes de docker descargadas
+
+$HADOOP_HOME/sbin/start-dfs.sh - para iniciar hdfs dentro del hadoop master
+
+"input.regex" = "([^ ]*) ([^ ]*) ([^ ]*) (-|\\[[^\\]]*\\]) ([^ \"]*|\"[^\"]*\") (-|[0-9]*) (-|[0-9]*)",
+  "output.format.string" = "%1$s %2$s %3$s %4$s %5$s %6$s %7$s" - Separadores por expresiones regulares
+
+curl -LO https://raw.githubusercontent.com/cluster-apps-on-docker/spark-standalone-cluster-on-docker/master/docker-compose.yml
